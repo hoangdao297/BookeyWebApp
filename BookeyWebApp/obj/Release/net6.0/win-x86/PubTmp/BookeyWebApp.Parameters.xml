@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="BookeyWebApp" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Bookey\\BookeyApp\\BookeyWebApp\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="BookeyWebApp.Data.ApplicationDbContext" description="" value="Server=DESKTOP-K0LQF2C\SQLEXPRESS;Database=Bookey;Trusted_Connection=True;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\Bookey\\BookeyApp\\BookeyWebApp\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\EFSQLScripts\\BookeyWebApp\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

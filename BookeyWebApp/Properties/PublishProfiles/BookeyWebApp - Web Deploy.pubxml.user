@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeTmZpi4oV0ql/sFWoBnUOgAAAAACAAAAAAAQZgAAAAEAACAAAAAZfCcV+BwzII+ppmR5fm5CXWYnZRW06PmxlEQPXb1bWgAAAAAOgAAAAAIAACAAAAA0+1KbNgH24bNm5t56ej5pKnfFbAjmuxa9pr2AySPrZ4AAAAA7/pginRf9+DIrTkedc6tYR6i86M/2wuT8CYFAaCQeFflk1Q9QUvjxqMXwVz6kNAb2dIhAJqTrqC9xHZpdEqY1TwPExJFHmIcRe6nUi4Pxso98sI2JTOQVu2u4QPnowNZxnyk9rKTeJ357cWcysNlRFKxAIcQg9jSgUfww1GrDckAAAADTvYYXr0zR8bJQxQZIS04QOL61MVIXOB5dyPmg3xw/oklmAcvkxvAN9/CydPxmySgQ0Unh/stSgeQMrDpJk4bo</EncryptedPassword>
+    <History>False|2024-01-07T03:48:25.7042260Z;False|2024-01-06T22:40:38.7074742-05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=DESKTOP-K0LQF2C\SQLEXPRESS%3bDatabase=Bookey%3bTrusted_Connection=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BookeyWebApp.Data.ApplicationDbContext">
+      <Value>Server=DESKTOP-K0LQF2C\SQLEXPRESS%3bDatabase=Bookey%3bTrusted_Connection=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
